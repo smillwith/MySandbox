@@ -1,0 +1,39 @@
+class CfgCommunicationMenu
+{
+    class mnuFlyToDefaultHeight
+    {
+        text = "Fly at 75 meters";
+        submenu = "";
+        expression = "dingus_fnc_heloCmdFlyDefaultHeight";
+        enable = "1";
+        removeAfterExpressionCall = 0;
+    };
+
+    class mnuFlyToTwoMeters
+    {
+        text = "Hover for Evac";
+        submenu = "";
+        expression = "dingus_fnc_heloCmdFlyLowForEvac";
+        enable = "1";
+        removeAfterExpressionCall = 0;
+    };
+
+    class mnuFlyToFiveHundred
+    {
+        text = "Fly at 500 meters";
+        submenu = "";
+        expression = "dingus_fnc_heloCmdFlyFiveHundredMeters";
+        enable = "1";
+        removeAfterExpressionCall = 0;
+    };
+
+    class mnuFlyToJumpHeight
+    {
+        text = "Fly at 1,500 meters";
+        submenu = "";
+        expression = "dingus_fnc_heloCmdFlyJumpHeight";
+        enable = "1";
+        removeAfterExpressionCall = 0;
+    };
+
+};
